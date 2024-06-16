@@ -18,6 +18,7 @@ In programming, a data type is a classification or categorization that specifies
 4. **Set Types:**
    - **set**: Represents sets (unordered collections of unique elements). Example: `my_set = {1, 2, 3}`
    - **frozenset**: Represents immutable sets. Example: `my_frozenset = frozenset([1, 2, 3])`
+     In Python, when a dictionary is passed to frozenset, it considers only the keys of the dictionary.
 
 5. **Boolean Type:**
    - **bool**: Represents Boolean values (`True` or `False`). Example: `is_valid = True`
